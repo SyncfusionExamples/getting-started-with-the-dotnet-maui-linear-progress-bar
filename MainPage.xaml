@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Example.MainPage"
+             xmlns:control="clr-namespace:Syncfusion.Maui.ProgressBar;assembly=Syncfusion.Maui.ProgressBar">
+
+    <control:SfLinearProgressBar Margin="50" Progress="55" IsIndeterminate="False"
+                                 SecondaryProgress="65" SegmentCount="4" 
+                                 SegmentGapWidth="10"  TrackFill="#33ffbe06" ProgressFill="#FFffbe06"
+                                 SecondaryProgressFill="#3351483a"
+                                 AnimationEasing="{x:Static Easing.BounceIn}"
+                                 AnimationDuration="3000"
+                                 TrackHeight="10" ProgressHeight="10" SecondaryProgressHeight="10"
+                                 Minimum="10" Maximum="80">
+         
+    </control:SfLinearProgressBar>
+
+</ContentPage>
